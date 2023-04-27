@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Video ID Finder",
+  "version": "1.0",
+  "description": "Finds the video ID of a YouTube video",
+  "permissions": ["activeTab", "tabs"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
